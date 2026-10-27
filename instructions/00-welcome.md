@@ -6,14 +6,14 @@
 
 Welcome!
 
-Everyone is building agents. In this lab you won't build any. **The agents are already built. Your job is to govern them.**
+Everyone is building agents. In this lab you won't build agents, **your job is to govern them.**
 
-You'll start where an IT leader starts, with a view of every agent in the organization. Then you'll look closer at the agents one development team built.
+You'll start where an IT leader starts, with a view of every agent in the organization. Then you'll deep dive into a set of specfic agents and work through tasks to govern them.
 
 | Tool | Who uses it | What it answers |
 |---|---|---|
 | **Microsoft Agent 365** (part of the Microsoft 365 admin center) | IT and AI administrators | "Which agents run across the whole organization, where did they come from, and who owns them?" |
-| **Microsoft Foundry** (observability and governance, also called the Foundry Control Plane) | Developers and platform teams | "Are *our* agents working, what do they cost, and what are they allowed to do?" |
+| **Microsoft Foundry** (observability and governance) | Developers and platform teams | "Are *our* agents working, what do they cost, and what are they allowed to do?" |
 
 > [!Knowledge]
 > **Which product wins?** Neither. That's the wrong question. Each product works on its own, and you don't need one to use the other. Used together, they give you one end-to-end view of agent governance, from what the developer configures to what IT governs across the organization.
