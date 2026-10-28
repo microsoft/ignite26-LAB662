@@ -86,20 +86,49 @@ There are four 5-minute tasks. You'll mostly read and interpret results; you won
 
 > **Takeaway:** A model saying “no” is not the same as the platform enforcing a rule. The enforce guardrail is configured to block detected prompt attacks; a claim of senior authority does not grant an exception. Use trace evidence to establish what actually happened and see the guardrail in action at an agent level
 
-### Task 3.4 — Set the rules and find the gaps (5 minutes)
+### Task 3.4 - Policies: Who makes jailbreak protection the standard? (5 minutes)
 
-**Business question:** *"What's our minimum safety bar, and who's out of compliance?"*
+**Business question:** *“We saw one agent block a jailbreak. How do we make that protection a minimum requirement across all models?”*
 
-1. Open **Operate** > **Compliance** > **Policies**. [Confirm path]
-1. Create a guardrail policy: [Confirm that the learner role allows this]
-   - Name: +++caldova-minimum-safety+++
-   - Controls: content safety, prompt-attack (jailbreak) protection and protected material
-   - Scope: the lab subscription
-1. Save the policy and wait for the compliance check to refresh.
-1. Find the items marked **Violations detected**. Select **Fix now** on one of them.
-1. Open the **Guardrails** tab and compare which deployments and agents meet the policy.
+> In the previous task, you tested `caldova-enforce`. Now you will create a governance policy requiring jailbreak protection for model deployments within your lab scope.
 
-- [] I created a policy and found at least one item that wasn't compliant.
+1. Open **Operate > Compliance** and select **Create policy**.
 
-> [!Knowledge]
-> This is the audit-and-fix loop: set the rule once, see who doesn't meet it, then fix it. Foundry also shows these policies to developers while they build, so they can't pick a model or tool that the organization hasn't allowed.
+2. Inspect the available controls. Under **Risk** select **Jailbreak**
+3. Select checkbox **User input**
+4. And Action **Annotate and block** -> note this is similar to our agent assigned guardrail
+5. **Add Control** and select **Next**
+
+6. Choose **Resource group** as the scope. Select the resource group with prefix **rg-igniteXXXX**, then confirm the selection.
+
+7. Select **Next** to review **exceptions**. For this exercise, **add no exceptions**.
+
+   Consider a team requesting an exception for an isolated test deployment. Who should approve it, and what justification would they need?
+
+   **An exception excludes that deployment from this governance requirement; it does not switch off an existing runtime guardrail.**
+
+8. Select **Next**, name the policy **`caldova-jailbreak-standard`**, and review:
+
+   | Review item | Intended configuration |
+   |---|---|
+   | Requirement | Jailbreak detection enabled with blocking |
+   | Scope | Your assigned lab resource group |
+   | Exceptions | None |
+
+   Select **Submit**.
+
+9. Confirm the submission succeeded. On **Compliance > Policies**, locate the policy when it becomes available and check its name and scope.
+
+   **Do not wait for the compliance scan to finish.** Results are asynchronous
+   Once the scan runs and is complete the outcome looks like below
+
+   <<INLCUDE IMAGE>>
+
+**Completion check**
+
+- [ ] I created a policy requiring jailbreak protection within my assigned lab scope.
+- [ ] I understand that creating the policy does not itself assign `caldova-enforce` or repair existing configurations.
+
+> **Takeaway:** The **guardrail** detects and blocks recognised jailbreak attempts during an interaction. The **governance policy** establishes jailbreak protection as a minimum configuration requirement across a defined scope. You need both to demonstrate protection and govern its adoption.
+
+[Microsoft’s policy-creation walkthrough](https://learn.microsoft.com/en-us/azure/foundry/control-plane/quickstart-create-guardrail-policy)
