@@ -35,7 +35,7 @@ Fill in the sections below yourself, then:
 ## 🔥LAB662: Design your enterprise agent governance model
 ### Session description
 
-Add your session description here. Keep it concise — 2-3 sentences about what attendees will learn and why it matters.
+Are governance gaps slowing AI at scale, leaving business leaders like yourself struggling to manage risk amidst fragmented tools and unclear guidance? In this no-code lab, explore how Microsoft Foundry, Copilot Studio, and Agent 365 can help unify governance and security across agents, apps, data, and models. Compare choices, map controls to business priorities, and leave with an actionable path to scale AI agents with confidence.
 
 ### 🚀 Getting started
 
