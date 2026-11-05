@@ -79,6 +79,28 @@ Pick your next step based on your learning style:
 | **[Microsoft Learn](https://aka.ms/ignite26-learn)** | Official documentation and guided learning paths on these topics |
 | **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-Ignite26)** | Connect with other learners and experts in our Discord community |
 
+#### Microsoft Agent 365 documentation
+
+- [Microsoft Agent 365 documentation](https://learn.microsoft.com/microsoft-agent-365/)
+
+#### Microsoft Foundry documentation
+
+- [Microsoft Foundry Control Plane](https://learn.microsoft.com/azure/foundry/control-plane/overview)
+- [Monitor your fleet](https://learn.microsoft.com/azure/foundry/control-plane/monitoring-across-fleet)
+- [Plan and manage costs](https://learn.microsoft.com/azure/foundry/concepts/manage-costs)
+- [Enforce token limits](https://learn.microsoft.com/azure/foundry/control-plane/how-to-enforce-limits-models)
+- [Foundry Guardrails overview](https://learn.microsoft.com/azure/foundry/guardrails/guardrails-overview)
+- [Manage compliance and security](https://learn.microsoft.com/azure/foundry/control-plane/how-to-manage-compliance-security)
+
+#### Related Ignite breakout sessions
+
+- [**A365** - Master agent governance, BRK345](https://ignite.microsoft.com/sessions/BRK345)
+- [**A365** - Manage and secure agents, BRK214](https://ignite.microsoft.com/sessions/BRK214)
+- [**A365** - Office of the CISO lessons, BRK341](https://ignite.microsoft.com/sessions/BRK341)
+- [**Microsoft Foundry** - Operate AI at scale, BRK253](https://ignite.microsoft.com/sessions/BRK253)
+- [**Microsoft Foundry** - Observe, evaluate, optimise agents, BRK251](https://ignite.microsoft.com/sessions/BRK251)
+- [**Microsoft Foundry** - Foundry improvement loop, BRK249](https://ignite.microsoft.com/sessions/BRK249)
+
 ### 🌟 Microsoft Learn MCP Server
 
 <!-- Remove this section if the Microsoft Learn MCP Server is not relevant to the session. -->
