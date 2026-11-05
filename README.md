@@ -43,33 +43,38 @@ Are governance gaps slowing AI at scale, leaving business leaders like yourself 
 
 If you're following along during a live session:
 
-1. Step 1
-2. Step 2
-3. Open [`instructions/`](instructions/README.md) when this session includes
-   attendee step-by-step guidance
+1. Open the [lab welcome and scenario](instructions/00-welcome.md).
+2. Follow the [sign-in instructions](instructions/01-sign-in.md) using the accounts provided in your lab environment's **Resources** tab.
+3. Follow your instructor through [Agent 365](instructions/02-agent-365.md), [Microsoft Foundry](instructions/03-foundry.md), [Better together](instructions/04-better-together.md), and the [wrap-up](instructions/05-wrap-up.md).
 
 #### On your own
 
 If you're learning at your own pace:
 
-1. Clone this repository
-2. Set up your environment
-3. Follow the session guidance in [`instructions/`](instructions/README.md), or
-   use the linked docs-site entry point when this repository uses that pattern
+1. Read the [lab welcome and scenario](instructions/00-welcome.md). This no-code lab only requires a browser.
+2. Use the lab launch link below when it becomes available. The exercises require the provided lab accounts and preconfigured agents; cloning this repository does not provision them.
+3. Follow the [sign-in instructions](instructions/01-sign-in.md), then work through [Agent 365](instructions/02-agent-365.md), [Microsoft Foundry](instructions/03-foundry.md), [Better together](instructions/04-better-together.md), and the [wrap-up](instructions/05-wrap-up.md).
+
+#### Session resources
+
+| Resource | Availability |
+|----------|--------------|
+| Launch lab | Coming soon — add the lab launch URL |
+| Session slides | Coming soon — add the slides URL |
+| Session recording | Coming soon — add the recording URL |
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Outcome 1
-- Outcome 2
-- Outcome 3
+- Use Microsoft Agent 365 to discover agents across an organization and establish accountable ownership.
+- Explain how developers use Microsoft Foundry to interpret Foundry agent health, costs, guardrails, and policies.
+- Explain how Microsoft Agent 365 and Microsoft Foundry work together to connect enterprise-wide oversight with developer controls.
 
 ### 💻 Technologies used
 
-- Technology 1
-- Technology 2
-- Technology 3
+- Microsoft Agent 365
+- Microsoft Foundry
 
 ### 📚 Continue your learning
 
@@ -108,10 +113,20 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
 
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/amynic">
+        <img src="https://github.com/amynic.png" width="100px;" alt="Amy Boyd"/><br />
+        <sub><b>Amy Boyd</b></sub></a><br />
+            <a href="https://github.com/amynic" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/BethanyJep">
+        <img src="https://github.com/BethanyJep.png" width="100px;" alt="Bethany Jepchumba"/><br />
+        <sub><b>Bethany Jepchumba</b></sub></a><br />
+            <a href="https://github.com/BethanyJep" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/DonaSarkar">
+        <img src="https://github.com/DonaSarkar.png" width="100px;" alt="Dona Sarkar"/><br />
+        <sub><b>Dona Sarkar</b></sub></a><br />
+            <a href="https://github.com/DonaSarkar" title="talk">📢</a>
     </td>
 </tr></table>
 
