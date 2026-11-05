@@ -1,4 +1,4 @@
-# Page 3: Microsoft Foundry — What your developers see and control (25 minutes)
+# Microsoft Foundry — What your developers see and control (25 minutes)
 
 You've seen every agent in the organization. Now look closer at one team's agents: the Caldova project in Microsoft Foundry. This is what your developers and platform team work with every day. It comes with your Azure subscription, so you don't need Agent 365 to use it.
 
