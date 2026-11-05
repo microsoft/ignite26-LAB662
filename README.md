@@ -47,14 +47,6 @@ If you're following along during a live session:
 2. Follow the [sign-in instructions](instructions/01-sign-in.md) using the accounts provided in your lab environment's **Resources** tab.
 3. Follow your instructor through [Agent 365](instructions/02-agent-365.md), [Microsoft Foundry](instructions/03-foundry.md), [Better together](instructions/04-better-together.md), and the [wrap-up](instructions/05-wrap-up.md).
 
-#### On your own
-
-If you're learning at your own pace:
-
-1. Read the [lab welcome and scenario](instructions/00-welcome.md). This no-code lab only requires a browser.
-2. Use the lab launch link below when it becomes available. The exercises require the provided lab accounts and preconfigured agents; cloning this repository does not provision them.
-3. Follow the [sign-in instructions](instructions/01-sign-in.md), then work through [Agent 365](instructions/02-agent-365.md), [Microsoft Foundry](instructions/03-foundry.md), [Better together](instructions/04-better-together.md), and the [wrap-up](instructions/05-wrap-up.md).
-
 #### Session resources
 
 | Resource | Availability |
