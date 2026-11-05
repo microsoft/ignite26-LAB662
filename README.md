@@ -43,33 +43,30 @@ Are governance gaps slowing AI at scale, leaving business leaders like yourself 
 
 If you're following along during a live session:
 
-1. Step 1
-2. Step 2
-3. Open [`instructions/`](instructions/README.md) when this session includes
-   attendee step-by-step guidance
+1. Open the [lab welcome and scenario](instructions/00-welcome.md).
+2. Follow the [sign-in instructions](instructions/01-sign-in.md) using the accounts provided in your lab environment's **Resources** tab.
+3. Follow your instructor through [Agent 365](instructions/02-agent-365.md), [Microsoft Foundry](instructions/03-foundry.md), [Better together](instructions/04-better-together.md), and the [wrap-up](instructions/05-wrap-up.md).
 
-#### On your own
+#### Session resources
 
-If you're learning at your own pace:
-
-1. Clone this repository
-2. Set up your environment
-3. Follow the session guidance in [`instructions/`](instructions/README.md), or
-   use the linked docs-site entry point when this repository uses that pattern
+| Resource | Availability |
+|----------|--------------|
+| Launch lab | Coming soon — add the lab launch URL |
+| Session slides | Coming soon — add the slides URL |
+| Session recording | Coming soon — add the recording URL |
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Outcome 1
-- Outcome 2
-- Outcome 3
+- Use Microsoft Agent 365 to discover agents across an organization and establish accountable ownership.
+- Explain how developers use Microsoft Foundry to interpret Foundry agent health, costs, guardrails, and policies.
+- Explain how Microsoft Agent 365 and Microsoft Foundry work together to connect enterprise-wide oversight with developer controls.
 
 ### 💻 Technologies used
 
-- Technology 1
-- Technology 2
-- Technology 3
+- Microsoft Agent 365
+- Microsoft Foundry
 
 ### 📚 Continue your learning
 
@@ -81,6 +78,28 @@ Pick your next step based on your learning style:
 | **[Microsoft AI Skills Navigator](https://aka.ms/ignite26-asn)** | Discover AI skills, learning paths, and resources for your next step |
 | **[Microsoft Learn](https://aka.ms/ignite26-learn)** | Official documentation and guided learning paths on these topics |
 | **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-Ignite26)** | Connect with other learners and experts in our Discord community |
+
+#### Microsoft Agent 365 documentation
+
+- [Microsoft Agent 365 documentation](https://learn.microsoft.com/microsoft-agent-365/)
+
+#### Microsoft Foundry documentation
+
+- [Microsoft Foundry Control Plane](https://learn.microsoft.com/azure/foundry/control-plane/overview)
+- [Monitor your fleet](https://learn.microsoft.com/azure/foundry/control-plane/monitoring-across-fleet)
+- [Plan and manage costs](https://learn.microsoft.com/azure/foundry/concepts/manage-costs)
+- [Enforce token limits](https://learn.microsoft.com/azure/foundry/control-plane/how-to-enforce-limits-models)
+- [Foundry Guardrails overview](https://learn.microsoft.com/azure/foundry/guardrails/guardrails-overview)
+- [Manage compliance and security](https://learn.microsoft.com/azure/foundry/control-plane/how-to-manage-compliance-security)
+
+#### Related Ignite breakout sessions
+
+- [**A365** - Master agent governance, BRK345](https://ignite.microsoft.com/sessions/BRK345)
+- [**A365** - Manage and secure agents, BRK214](https://ignite.microsoft.com/sessions/BRK214)
+- [**A365** - Office of the CISO lessons, BRK341](https://ignite.microsoft.com/sessions/BRK341)
+- [**Microsoft Foundry** - Operate AI at scale, BRK253](https://ignite.microsoft.com/sessions/BRK253)
+- [**Microsoft Foundry** - Observe, evaluate, optimise agents, BRK251](https://ignite.microsoft.com/sessions/BRK251)
+- [**Microsoft Foundry** - Foundry improvement loop, BRK249](https://ignite.microsoft.com/sessions/BRK249)
 
 ### 🌟 Microsoft Learn MCP Server
 
@@ -108,10 +127,20 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
 
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/amynic">
+        <img src="https://github.com/amynic.png" width="100px;" alt="Amy Boyd"/><br />
+        <sub><b>Amy Boyd</b></sub></a><br />
+            <a href="https://github.com/amynic" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/BethanyJep">
+        <img src="https://github.com/BethanyJep.png" width="100px;" alt="Bethany Jepchumba"/><br />
+        <sub><b>Bethany Jepchumba</b></sub></a><br />
+            <a href="https://github.com/BethanyJep" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/DonaSarkar">
+        <img src="https://github.com/DonaSarkar.png" width="100px;" alt="Dona Sarkar"/><br />
+        <sub><b>Dona Sarkar</b></sub></a><br />
+            <a href="https://github.com/DonaSarkar" title="talk">📢</a>
     </td>
 </tr></table>
 
