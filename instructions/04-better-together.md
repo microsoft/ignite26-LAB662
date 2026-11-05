@@ -1,6 +1,6 @@
-# Page 4: Better together (5 minutes)
+# Better together (5 minutes)
 
-**Business question:** *"What happens when Agent 365 and Microsoft Foundry work together?"*
+**Business question:** *"I made changes in the way Microsoft Foundry agents are governed, can my IT team see this?"*
 
 <!-- AUTHOR NOTE: validate this hand-off once Agent 365 is activated in the lab tenant and the Foundry agents appear in the Agent Registry. -->
 
