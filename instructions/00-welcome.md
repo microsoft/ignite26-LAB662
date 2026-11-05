@@ -22,7 +22,7 @@ You'll start where an IT leader starts, with a view of every agent in the organi
 
 Caldova is a fictional pharmaceutical company. Teams across the business have been building agents in Copilot Studio and Microsoft Foundry, and some have been brought in from outside. Nobody has a complete list.
 
-One team, Supply Chain, built four specialist agents in Microsoft Foundry to advise on a supply disruption. A planner wants to move production to a new supplier, **Northbank**, and speed up deliveries through the **Cedar** route. The agents give advice, but **none of them is allowed to commit the company to anything**.
+One team, Supply Chain, built four specialist agents in Microsoft Foundry to advise on a supply disruption. If a planner wants to move production to a new supplier, e.g. **Northbank**, and speed up deliveries through the **Cedar** route these are the agents they use in Caldova to get work done
 
 | Foundry agent | Business owner | What it may do |
 |---|---|---|
@@ -31,10 +31,7 @@ One team, Supply Chain, built four specialist agents in Microsoft Foundry to adv
 | **caldova-supplier-risk-monitor** | Supplier Assurance | Classify risk and recommend escalation. It can't block a supplier. |
 | **caldova-approval-packet-reviewer** | Quality Governance | Check a change packet for completeness. It can't sign or approve. |
 
-Two more Foundry agents, **guardrail-test-agent** and **guardrail-monitor-agent**, are set up for a guardrails exercise. These agents have already been used, so their activity, traces and evaluations are ready for you to explore.
-
-> [!Note]
-> All companies, people, agents, quantities and documents in this lab are fictional training data. Don't use them for real decisions.
+Two more Foundry agents, **guardrail-test-agent** and **guardrail-monitor-agent**, are set up for a guardrails exercise. These agents already have usage activity, traces and evaluations ready for you to explore.
 
 ### Lab outline
 
@@ -42,7 +39,7 @@ Two more Foundry agents, **guardrail-test-agent** and **guardrail-monitor-agent*
 |---|---|---|
 | 1. Sign in | | 5 min |
 | 2. Agent 365: find every agent | "What agents do we have, where did they come from, and who owns them?" | 20 min |
-| 3. Foundry: health, cost, guardrails and policies | "Are they working, what do they cost, and what's our minimum safety bar?" | 25 min |
+| 3. Microsoft Foundry: health, cost, guardrails and policies | "Are they working, what do they cost, and what's our minimum safety bar?" | 25 min |
 | 4. Better together | "What happens when the two work together?" | 5 min |
 | 5. Wrap-up | "What will we do on Monday?" | 5 min |
 
