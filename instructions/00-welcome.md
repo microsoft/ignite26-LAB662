@@ -20,7 +20,9 @@ You'll start where an IT leader starts, with a view of every agent in the organi
 
 ### Your scenario: Caldova Pharmaceuticals
 
-Caldova is a fictional pharmaceutical company. Teams across the business have been building agents in Copilot Studio and Microsoft Foundry, and some have been brought in from outside. Nobody has a complete list.
+Caldova is a fictional pharmaceutical company. Teams across the business have been building agents in Copilot Studio and Microsoft Foundry, and some have been brought in from outside. Nobody has a complete list. 
+
+The IT organization have recently gotten access to Agent 365 which sits inside the Microsoft 365 Admin Center. They will now be able to inventory and govern their agents in one place and also put some actions in place to alert them if any existing or new agents need attention. 
 
 One team, Supply Chain, built four specialist agents in Microsoft Foundry to advise on a supply disruption. If a planner wants to move production to a new supplier, e.g. **Northbank**, and speed up deliveries through the **Cedar** route these are the agents they use in Caldova to get work done
 
