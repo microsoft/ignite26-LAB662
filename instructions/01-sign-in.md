@@ -1,20 +1,63 @@
-# Sign in (5 minutes)
+# Sign in and set up governance (10 minutes)
 
-You only need a browser for this lab. You'll use **two different lab accounts**:
+You only need a browser for this lab. You'll use one lab account to sign in to the Microsoft 365 admin center, Microsoft Foundry and the Azure portal.
 
-- **Microsoft 365:** An administrator account for agent governance.
-- **Microsoft Foundry and Azure:** A standard development-team account.
+| Credential | Value |
+|---|---|
+| **Username** | +++@lab.CloudCredential(AITour27M365E7).Username+++ |
+| **Password** | +++@lab.CloudCredential(AITour27M365E7).Password+++ |
 
-Find the username and **Temporary Access Pass (TAP)** for each account in the **Resources** tab.
+### Sign in
 
 1. Open a new browser tab and go to +++https://admin.microsoft.com+++.
-2. Sign in using the **Microsoft 365 administrator username and TAP** from the **Resources** tab.
-3. Open a separate in-private browsing window and go to +++https://ai.azure.com+++.
-4. Sign in using the **Foundry/Azure username and TAP** from the **Resources** tab. This is a different account from your Microsoft 365 administrator account.
+1. Sign in with the **Username** and **Password** above.
+1. Open a separate in-private browsing window and go to +++https://ai.azure.com+++.
+1. Sign in with the same **Username** and **Password**.
 
-- [ ] I'm signed in to the Microsoft 365 admin center with the administrator account and to Microsoft Foundry with the development-team account.
+- [ ] I'm signed in to the Microsoft 365 admin center and to Microsoft Foundry.
 
-> Only use the lab accounts listed in the **Resources** tab. Don't sign in with your own work or personal account.
+> Only use the lab account shown above. Don't sign in with your own work or personal account.
 
 > Your Microsoft 365 lab account has the **AI Administrator** role, which is required to see Agent 365. In your own organization, a Global Administrator assigns this role; ongoing agent governance does not require Global Administrator rights.
+
+### Create the model governance policy
+
+**Business question:** *"How do we make sure teams only deploy models we have approved?"*
+
+You'll create an Azure Policy now and test it in the Microsoft Foundry section. Policies are evaluated asynchronously, so creating one first gives it time to take effect.
+
+1. In the in-private window, open a new tab and go to +++https://portal.azure.com+++. Search for **Policy** and open it.
+1. Select **Authoring > Assignments**, then **Assign policy**.
+1. Next to **Scope**, select **...**. Leave **Subscription** as is, and under **Resource Group** select the group with the prefix **rg-ignite**. Select **Select**.
+
+   !IMAGE[Policy scope: select the subscription](../img/03-policy-assign-scope-subscription.png)
+
+   !IMAGE[Policy scope: select the rg-ignite resource group](../img/03-policy-assign-scope-resource-group.png)
+
+1. Next to **Policy definition**, select **...** and search for +++Microsoft Foundry+++. Select **Foundry model deployments should only use approved models** and choose **Add**.
+
+   !IMAGE[Search for the Foundry model deployments policy](../img/03-policy-available-definitions-foundry.png)
+
+1. Leave **Policy enforcement** as **Default (enforcement)**, then select **Next** to open **Parameters**.
+1. Clear **Only show parameters that need input or review**, then set:
+
+   | Parameter | Value |
+   |---|---|
+   | **Effect** | `Deny` |
+   | **Allowed Model Publishers** | +++["OpenAI","Microsoft"]+++ |
+   | **Allowed Asset Ids** | +++[]+++ |
+
+   !IMAGE[Policy parameters: allowed model publishers](../img/03-policy-assign-parameters-allowed-publishers.png)
+
+1. Select **Review + create**, then **Create**.
+1. Go to **Policy > Compliance**. The new assignment appears with the compliance state **Not started**.
+
+   !IMAGE[Policy compliance: Not started](../img/03-policy-compliance-azure-not-started.png)
+
+   **Don't wait for the evaluation to finish.** Results are asynchronous. You'll check the policy in Microsoft Foundry in the next sections.
+
+- [ ] The assignment **Foundry model deployments should only use approved models** exists on my **rg-ignite** resource group.
+
+> [!Knowledge]
+> The same Azure Policy assignment appears in Microsoft Foundry under **Manage > Compliance**. Platform teams define it once and every model deployment in scope is checked against it.
 
