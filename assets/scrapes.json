@@ -1,0 +1,54 @@
+{
+  "value": [
+    {
+      "id": "/subscriptions/c4417f5e-07ec-432c-9d0a-28171e4afed3/resourceGroups/rg-ignite66560490/providers/Microsoft.CognitiveServices/accounts/cog-b7g36s7yfotsk",
+      "name": "cog-b7g36s7yfotsk",
+      "type": "Microsoft.CognitiveServices/accounts",
+      "sku": {
+        "name": "S0"
+      },
+      "kind": "AIServices",
+      "location": "francecentral",
+      "identity": {
+        "principalId": "7e627148-6955-429a-a722-395e42537c32",
+        "tenantId": "4cfe372a-37a4-44f8-91b2-5faf34253c62",
+        "type": "SystemAssigned"
+      },
+      "tags": {
+        "azd-env-name": "ignite66560490"
+      }
+    },
+    {
+      "id": "/subscriptions/c4417f5e-07ec-432c-9d0a-28171e4afed3/resourceGroups/rg-ignite66560490/providers/Microsoft.CognitiveServices/accounts/cog-b7g36s7yfotsk/projects/ignite66560490",
+      "name": "cog-b7g36s7yfotsk/ignite66560490",
+      "type": "Microsoft.CognitiveServices/accounts/projects",
+      "kind": "AIServices",
+      "location": "francecentral",
+      "identity": {
+        "principalId": "c4499e24-23ae-4724-a152-0e4a7994e1db",
+        "tenantId": "4cfe372a-37a4-44f8-91b2-5faf34253c62",
+        "type": "SystemAssigned"
+      }
+    },
+    {
+      "id": "/subscriptions/c4417f5e-07ec-432c-9d0a-28171e4afed3/resourceGroups/rg-ignite66560490/providers/Microsoft.OperationalInsights/workspaces/log-lab662",
+      "name": "log-lab662",
+      "type": "Microsoft.OperationalInsights/workspaces",
+      "location": "francecentral"
+    },
+    {
+      "id": "/subscriptions/c4417f5e-07ec-432c-9d0a-28171e4afed3/resourceGroups/rg-ignite66560490/providers/Microsoft.Insights/components/appi-lab662",
+      "name": "appi-lab662",
+      "type": "Microsoft.Insights/components",
+      "kind": "web",
+      "location": "francecentral",
+      "tags": {}
+    },
+    {
+      "id": "/subscriptions/c4417f5e-07ec-432c-9d0a-28171e4afed3/resourceGroups/rg-ignite66560490/providers/microsoft.insights/actiongroups/Application Insights Smart Detection",
+      "name": "Application Insights Smart Detection",
+      "type": "microsoft.insights/actiongroups",
+      "location": "global"
+    }
+  ]
+}

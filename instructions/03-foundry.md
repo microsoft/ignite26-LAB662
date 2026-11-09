@@ -4,7 +4,7 @@ You've seen every agent in the organization. Now look closer at one team's agent
 
 There are four 5-minute tasks. You'll mostly read and interpret results; you won't write any code.
 
-<!-- AUTHOR NOTE: Product naming. Leadership guidance (Oct 20) is to keep "Foundry Control Plane" as the name. In the portal these views appear under Operate / Govern. Check tab labels in the Foundry governance daily stand-up before taking screenshots. -->
+<!-- AUTHOR NOTE: Product naming. Leadership guidance (Oct 20) is to keep "Foundry Control Plane" as the name. In the portal these views appear under Manage / Govern. Check tab labels in the Foundry governance daily stand-up before taking screenshots. -->
 
 ### Task 3.1 — The estate and its health (5 minutes)
 
@@ -60,7 +60,7 @@ There are four 5-minute tasks. You'll mostly read and interpret results; you won
 
 **Business question:** *"What do our agents cost, and how do we stop a runaway bill?"*
 
-1. [] Go back to the **Operate** overview. Sort the agents by **estimated cost**, then by **error rate** and **token usage**.
+1. [] Go back to the **Manage** overview. Sort the agents by **estimated cost**, then by **error rate** and **token usage**.
 1. [] Find the most expensive agent and open it.
 1. [] Open **AI Gateway** > **Token management**. [Confirm path]
 1. [] Review the tokens-per-minute limit set for the lab's model deployment. [Or: set a limit of +++1000+++ tokens per minute for the project. Confirm that the learner role allows this.]
@@ -125,7 +125,7 @@ There are four 5-minute tasks. You'll mostly read and interpret results; you won
 
 > In the previous task, you tested `caldova-enforce`. Now you will create a governance policy requiring jailbreak protection for model deployments within your lab scope.
 
-1. [] Open **Operate > Compliance** and select **Create policy**.
+1. [] Open **Managee > Compliance** and select **Create policy**.
 
 1. [] Inspect the available controls. Under **Risk** select **Jailbreak**
 1. [] Select checkbox **User input**

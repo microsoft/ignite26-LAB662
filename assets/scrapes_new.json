@@ -1,0 +1,66 @@
+{
+	"value": [
+		{
+			"id": "/subscriptions/ed96948e-9d9a-4c37-91f9-f5d6096a9f87/resourceGroups/rg-ignite67154898/providers/Microsoft.CognitiveServices/accounts/cog-sojb6562txiyg",
+			"name": "cog-sojb6562txiyg",
+			"type": "Microsoft.CognitiveServices/accounts",
+			"sku": {
+				"name": "S0"
+			},
+			"kind": "AIServices",
+			"location": "eastus2",
+			"identity": {
+				"principalId": "60973120-373e-44f0-83dc-c412af510784",
+				"tenantId": "6255a15d-26f2-45d9-ba8c-9222d967dd96",
+				"type": "SystemAssigned"
+			},
+			"tags": {
+				"azd-env-name": "ignite67154898"
+			}
+		},
+		{
+			"id": "/subscriptions/ed96948e-9d9a-4c37-91f9-f5d6096a9f87/resourceGroups/rg-ignite67154898/providers/Microsoft.CognitiveServices/accounts/cog-sojb6562txiyg/projects/ignite67154898",
+			"name": "cog-sojb6562txiyg/ignite67154898",
+			"type": "Microsoft.CognitiveServices/accounts/projects",
+			"kind": "AIServices",
+			"location": "eastus2",
+			"identity": {
+				"principalId": "dc29a058-3e87-46dc-ab9a-891e34986162",
+				"tenantId": "6255a15d-26f2-45d9-ba8c-9222d967dd96",
+				"type": "SystemAssigned"
+			}
+		},
+		{
+			"id": "/subscriptions/ed96948e-9d9a-4c37-91f9-f5d6096a9f87/resourceGroups/rg-ignite67154898/providers/Microsoft.OperationalInsights/workspaces/log-lab662",
+			"name": "log-lab662",
+			"type": "Microsoft.OperationalInsights/workspaces",
+			"location": "eastus2"
+		},
+		{
+			"id": "/subscriptions/ed96948e-9d9a-4c37-91f9-f5d6096a9f87/resourceGroups/rg-ignite67154898/providers/Microsoft.Insights/components/appi-lab662",
+			"name": "appi-lab662",
+			"type": "Microsoft.Insights/components",
+			"kind": "web",
+			"location": "eastus2",
+			"tags": {}
+		},
+		{
+			"id": "/subscriptions/ed96948e-9d9a-4c37-91f9-f5d6096a9f87/resourceGroups/rg-ignite67154898/providers/microsoft.insights/actiongroups/Application Insights Smart Detection",
+			"name": "Application Insights Smart Detection",
+			"type": "microsoft.insights/actiongroups",
+			"location": "global"
+		},
+		{
+			"id": "/subscriptions/ed96948e-9d9a-4c37-91f9-f5d6096a9f87/resourceGroups/rg-ignite67154898/providers/Microsoft.BotService/botServices/caldova-supplier-risk-moni66033",
+			"name": "caldova-supplier-risk-moni66033",
+			"type": "Microsoft.BotService/botServices",
+			"sku": {
+				"name": "S1"
+			},
+			"kind": "azurebot",
+			"location": "global",
+			"zones": [],
+			"tags": {}
+		}
+	]
+}
