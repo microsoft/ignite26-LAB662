@@ -39,10 +39,10 @@ Two more Foundry agents, **guardrail-test-agent** and **guardrail-monitor-agent*
 
 | Page | Business question | Time |
 |---|---|---|
-| 1. Sign in | | 5 min |
+| 1. Sign in and set up | "How do we set a safety bar before teams build?" | 10 min |
 | 2. Agent 365: find every agent | "What agents do we have, where did they come from, and who owns them?" | 20 min |
-| 3. Microsoft Foundry: health, cost, guardrails and policies | "Are they working, what do they cost, and what's our minimum safety bar?" | 25 min |
-| 4. Better together | "What happens when the two work together?" | 5 min |
+| 3. Microsoft Foundry: health, cost, guardrails, policies and publishing | "Are they working, what do they cost, and what's our minimum safety bar?" | 35 min |
+| 4. Better together | "How does IT approve and control a published agent?" | 15 min |
 | 5. Wrap-up | "What will we do on Monday?" | 5 min |
 
 Select **Next** to begin.
