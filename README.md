@@ -1,29 +1,3 @@
-## Before you're done
-
-This repo has been created for your Microsoft Ignite 2026 session. Here's how to get it ready.
-
-**Easiest path — use the agent (recommended):**
-
-- Open GitHub Copilot Chat and say `help me initialize repo`. The agent will walk you through getting the README populated.
-- When you're ready to publish, say `help me finalize repo`. The agent will clean up unused folders, validate everything, and remove this "Before you're done" section and other extra stuff that attendees don't need to see.
-- Curious how it works? Read the [agent workflow](.github/AGENT-WORKFLOW.md).
-
-**Doing it manually?**
-
-Fill in the sections below yourself, then:
-
-- Delete any placeholder folders you don't need (`data/`, `infra/`, etc.)
-- Delete this "Before you're done" section
-- Delete `.github/agents/`, `.github/tests/`, `.github/copilot-instructions.md`, and `.github/AGENT-WORKFLOW.md` — these are template tooling, not part of your published repo
-
-**Folder conventions:**
-
-- Attendee step-by-step guidance goes in `instructions/`. If you use MkDocs or a docs site instead, put it in `docs/` and link to it from this README.
-- Reference material and background reading go in `docs/`.
-- You can add a `.devcontainer/` folder if needed.
-
----
-
 <a name="start-building"></a>
 
 <p align="center">
@@ -44,7 +18,7 @@ Are governance gaps slowing AI at scale, leaving business leaders like yourself 
 If you're following along during a live session:
 
 1. Open the [lab welcome and scenario](instructions/00-welcome.md).
-2. Follow the [sign-in instructions](instructions/01-sign-in.md) using the accounts provided in your lab environment's **Resources** tab.
+2. Follow the [sign-in and setup instructions](instructions/01-sign-in.md) using the account shown in your lab environment.
 3. Follow your instructor through [Agent 365](instructions/02-agent-365.md), [Microsoft Foundry](instructions/03-foundry.md), [Better together](instructions/04-better-together.md), and the [wrap-up](instructions/05-wrap-up.md).
 
 #### Session resources
@@ -65,8 +39,10 @@ By the end of this session, you will be able to:
 
 ### 💻 Technologies used
 
-- Microsoft Agent 365
-- Microsoft Foundry
+- [Microsoft Agent 365](https://learn.microsoft.com/microsoft-agent-365/)
+- [Microsoft Foundry](https://learn.microsoft.com/azure/foundry/)
+- [Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/)
+- [Azure Policy](https://learn.microsoft.com/azure/governance/policy/overview)
 
 ### 📚 Continue your learning
 
@@ -91,6 +67,7 @@ Pick your next step based on your learning style:
 - [Enforce token limits](https://learn.microsoft.com/azure/foundry/control-plane/how-to-enforce-limits-models)
 - [Foundry Guardrails overview](https://learn.microsoft.com/azure/foundry/guardrails/guardrails-overview)
 - [Manage compliance and security](https://learn.microsoft.com/azure/foundry/control-plane/how-to-manage-compliance-security)
+- [Publish agents to Microsoft Copilot and Microsoft Teams](https://learn.microsoft.com/azure/foundry/agents/how-to/publish-copilot)
 
 #### Related Ignite breakout sessions
 
@@ -102,8 +79,6 @@ Pick your next step based on your learning style:
 - [**Microsoft Foundry** - Foundry improvement loop, BRK249](https://ignite.microsoft.com/sessions/BRK249)
 
 ### 🌟 Microsoft Learn MCP Server
-
-<!-- Remove this section if the Microsoft Learn MCP Server is not relevant to the session. -->
 
 The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's official documentation — grounded, up-to-date answers about the topics in this session.
 
@@ -119,11 +94,6 @@ copilot plugin install microsoftdocs/mcp
 For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp).
 
 ### 👥 Content owners
-
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
 
 <table>
 <tr>

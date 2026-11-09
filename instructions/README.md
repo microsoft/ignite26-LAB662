@@ -1,6 +1,10 @@
 # Attendee instructions
 
-<!-- IGNITE TEMPLATE PLACEHOLDER: remove this folder when the session has no attendee step-by-step guidance. -->
+Follow the pages in order.
 
-Use this folder for attendee step-by-step guidance, including self-paced
-instructions, for any session type.
+1. [Welcome and scenario](00-welcome.md)
+1. [Sign in and set up governance](01-sign-in.md)
+1. [Agent 365: find every agent](02-agent-365.md)
+1. [Microsoft Foundry: what your developers see and control](03-foundry.md)
+1. [Better together](04-better-together.md)
+1. [Wrap-up](05-wrap-up.md)
