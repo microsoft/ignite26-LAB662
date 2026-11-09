@@ -30,13 +30,13 @@ You'll create an Azure Policy now and test it in the Microsoft Foundry section. 
 1. Select **Authoring > Assignments**, then **Assign policy**.
 1. Next to **Scope**, select **...**. Leave **Subscription** as is, and under **Resource Group** select the group with the prefix **rg-ignite**. Select **Select**.
 
-   !IMAGE[Policy scope: select the subscription](../img/03-policy-assign-scope-subscription.png)
+   ![Policy scope: select the subscription](../img/03-policy-assign-scope-subscription.png)
 
-   !IMAGE[Policy scope: select the rg-ignite resource group](../img/03-policy-assign-scope-resource-group.png)
+   ![Policy scope: select the rg-ignite resource group](../img/03-policy-assign-scope-resource-group.png)
 
 1. Next to **Policy definition**, select **...** and search for +++Microsoft Foundry+++. Select **Foundry model deployments should only use approved models** and choose **Add**.
 
-   !IMAGE[Search for the Foundry model deployments policy](../img/03-policy-available-definitions-foundry.png)
+   ![Search for the Foundry model deployments policy](../img/03-policy-available-definitions-foundry.png)
 
 1. Leave **Policy enforcement** as **Default (enforcement)**, then select **Next** to open **Parameters**.
 1. Clear **Only show parameters that need input or review**, then set:
@@ -47,12 +47,12 @@ You'll create an Azure Policy now and test it in the Microsoft Foundry section. 
    | **Allowed Model Publishers** | +++["OpenAI","Microsoft"]+++ |
    | **Allowed Asset Ids** | +++[]+++ |
 
-   !IMAGE[Policy parameters: allowed model publishers](../img/03-policy-assign-parameters-allowed-publishers.png)
+   ![Policy parameters: allowed model publishers](../img/03-policy-assign-parameters-allowed-publishers.png)
 
 1. Select **Review + create**, then **Create**.
 1. Go to **Policy > Compliance**. The new assignment appears with the compliance state **Not started**.
 
-   !IMAGE[Policy compliance: Not started](../img/03-policy-compliance-azure-not-started.png)
+   ![Policy compliance: Not started](../img/03-policy-compliance-azure-not-started.png)
 
    **Don't wait for the evaluation to finish.** Results are asynchronous. You'll check the policy in Microsoft Foundry in the next sections.
 

@@ -15,9 +15,9 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
    - **Permissions:** the permissions the agent needs.
    - **Requests:** who asked for access and when.
 
-   !IMAGE[Requests tab for a published Foundry agent](../img/04-m365-admin-center-supplier-risk-monitor-requests.png)
+   ![Requests tab for a published Foundry agent](../img/04-m365-admin-center-supplier-risk-monitor-requests.png)
 
-   !IMAGE[Agent overview](../img/04-m365-admin-center-agent-overview-details.png)
+   ![Agent overview](../img/04-m365-admin-center-agent-overview-details.png)
 
 ### Step 2: Approve with controls
 
@@ -25,7 +25,7 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
 1. In **Select users**, choose who can use the agent. For this lab, select **All users**. In your own organization, start with a small pilot group.
 1. In **Security policy**, keep **Default policy template for agents**. Review the custom policies and protections that apply to the agent.
 
-   !IMAGE[Review security policy](../img/04-m365-admin-center-publish-agent-security-policy.png)
+   ![Review security policy](../img/04-m365-admin-center-publish-agent-security-policy.png)
 
    > [!Note]
    > Custom policies can't be applied by every admin role. If an option is unavailable, the template still applies the Microsoft default policies.
@@ -34,7 +34,7 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
 1. In **Review and finish**, check your choices and select **Finish**.
 1. Open the agent again and review **Security**. Confirm that **Microsoft Purview protections** are listed: monitor agent activity, protect sensitive data and evaluate compliance gaps.
 
-   !IMAGE[Purview protections applied to the agent](../img/04-m365-admin-center-agent-purview-protections.png)
+   ![Purview protections applied to the agent](../img/04-m365-admin-center-agent-purview-protections.png)
 
 1. Assign an owner to the agent so that someone is accountable for it.
 
