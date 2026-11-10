@@ -11,7 +11,7 @@ You only need a browser for this lab. You'll use one lab account to sign in to t
 
 1. Open a new browser tab and go to +++https://admin.microsoft.com+++.
 1. Sign in with the **Username** and **Password** above.
-1. Open a separate in-private browsing window and go to +++https://ai.azure.com+++.
+1. Open another browser tab and go to +++https://ai.azure.com+++.
 1. Sign in with the same **Username** and **Password**.
 
 - [ ] I'm signed in to the Microsoft 365 admin center and to Microsoft Foundry.
