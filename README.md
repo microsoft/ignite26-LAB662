@@ -26,7 +26,7 @@ If you're following along during a live session:
 | Resource | Availability |
 |----------|--------------|
 | Launch lab | Coming soon — add the lab launch URL |
-| Session slides | Coming soon — add the slides URL |
+| Session slides | [Download the LAB662 slide deck](slides/LAB662-agent-governance.pptx) |
 | Session recording | Coming soon — add the recording URL |
 
 ### 🎯 Learning outcomes
