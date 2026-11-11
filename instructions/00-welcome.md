@@ -1,7 +1,5 @@
 @lab.Title
 
-# Avoiding Agent Chaos: Design Your Enterprise Agent Governance Model
-
 **LAB662 | Level 200 | 75 minutes | Audience: business and technical decision makers**
 
 Welcome!
