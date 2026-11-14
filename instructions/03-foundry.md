@@ -11,7 +11,7 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 **Business question:** *"Are our agents working, and is anything going wrong?"*
 
 1. [] Go to the Microsoft Foundry tab (+++https://ai.azure.com+++) and open the Ignite project listed.
-1. [] Select **Manage** to land on the **Fleet overview** page.
+1. [] Select **Manage** in the top right to land on the **Fleet overview** page.
 1. [] Review the summary: the number of projects selected, agent runs, token consumption, estimated costs and policy violations.
 
    ![Fleet overview summary](../img/03-foundry-fleet-overview-summary.png)
@@ -70,7 +70,7 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 
 **Business question:** *"What do our agents cost, and how do we stop a runaway bill?"*
 
-1. [] Go back to the **Manage** overview and select **Cost**.
+1. [] Go back to the **Manage** overview and select **Cost** on the left-hand side.
 1. [] Set the date range to **7D**. Review **Estimated cost**, **Month-end forecast** and the **Spend breakdown** between agent cost and direct model cost.
 
    ![Cost overview](../img/03-foundry-cost-overview-summary.png)
@@ -158,7 +158,7 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 
    ![Policy listed in Foundry compliance](../img/03-policy-compliance-foundry-operate.png)
 
-1. [] Open the **Model catalog** and search for +++Kimi-K3.1-Pro+++. This model is published by Moonshot AI, not Microsoft or OpenAI.
+1. [] Open the **Model catalog** (go to **Build** in the top right corner, then select **Catalog** on the left)and search for +++Kimi-K3.1-Pro+++. This model is published by Moonshot AI, not Microsoft or OpenAI.
 1. [] Open the model and look at the **Deploy** button.
 
    The expected outcome is that the model **can't be deployed**. A banner explains that your administrator's policy blocks the model.
@@ -185,7 +185,7 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 
 **Business question:** *“My developers built a useful agent. How does it reach our employees, and who approves it?”*
 
-1. [] In Microsoft Foundry, open **Agents** and select **caldova-capacity-planning**.
+1. [] In Microsoft Foundry, go to **Build** at the top, then open **Agents** and select **caldova-capacity-planning**.
 1. [] Select **Publish**, then **Teams and Microsoft Copilot**. The **Publish to Teams and Microsoft 365** dialog opens.
 1. [] Complete the required details, such as the name and descriptions. Use the agent's name and a short description of what it does.
 1. [] For availability, select **People in your organization**. This submits the agent for approval by your Microsoft 365 administrator instead of making it available straight away.

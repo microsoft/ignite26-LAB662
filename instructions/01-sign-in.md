@@ -26,7 +26,7 @@ You only need a browser for this lab. You'll use one lab account to sign in to t
 
 You'll create an Azure Policy now and test it in the Microsoft Foundry section. Policies are evaluated asynchronously, so creating one first gives it time to take effect.
 
-1. In the in-private window, open a new tab and go to +++https://portal.azure.com+++. Search for **Policy** and open it.
+1. Open another browser tab and go to +++https://portal.azure.com+++. Search for **Policy** and open it.
 1. Select **Authoring > Assignments**, then **Assign policy**.
 1. Next to **Scope**, select **...**. Leave **Subscription** as is, and under **Resource Group** select the group with the prefix **rg-ignite**. Select **Select**.
 
