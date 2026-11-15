@@ -8,6 +8,9 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
 
 1. Go back to the Microsoft 365 admin center tab and select **Agents > All agents**, then open the **Requests** view.
 1. Find the request for **caldova-capacity-planning**. The status is **Pending review**.
+
+   !IMAGE[04-m365-admin-center-supplier-risk-monitor-publish-pending.png](instructions360868/04-m365-admin-center-supplier-risk-monitor-publish-pending.png)
+
 1. Open the agent and review each tab before you decide:
    - **Details:** who published it, the channels (Microsoft 365 Copilot and Teams) and the Entra agent ID.
    - **Data & tools:** what the agent can reach.
@@ -15,9 +18,9 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
    - **Permissions:** the permissions the agent needs.
    - **Requests:** who asked for access and when.
 
-   ![Requests tab for a published Foundry agent](../img/04-m365-admin-center-supplier-risk-monitor-requests.png)
+   !IMAGE[04-m365-admin-center-supplier-risk-monitor-requests.png](instructions360868/04-m365-admin-center-supplier-risk-monitor-requests.png)
 
-   ![Agent overview](../img/04-m365-admin-center-agent-overview-details.png)
+   !IMAGE[04-m365-admin-center-agent-overview-details.png](instructions360868/04-m365-admin-center-agent-overview-details.png)
 
 ### Step 2: Approve with controls
 
@@ -25,7 +28,7 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
 1. In **Select users**, choose who can use the agent. For this lab, select **All users**. In your own organization, start with a small pilot group.
 1. In **Security policy**, keep **Default policy template for agents**. Review the custom policies and protections that apply to the agent.
 
-   ![Review security policy](../img/04-m365-admin-center-publish-agent-security-policy.png)
+   !IMAGE[04-m365-admin-center-publish-agent-security-policy.png](instructions360868/04-m365-admin-center-publish-agent-security-policy.png)
 
    > [!Note]
    > Custom policies can't be applied by every admin role. If an option is unavailable, the template still applies the Microsoft default policies.
@@ -34,7 +37,7 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
 1. In **Review and finish**, check your choices and select **Finish**.
 1. Open the agent again and review **Security**. Confirm that **Microsoft Purview protections** are listed: monitor agent activity, protect sensitive data and evaluate compliance gaps.
 
-   ![Purview protections applied to the agent](../img/04-m365-admin-center-agent-purview-protections.png)
+   !IMAGE[04-m365-admin-center-agent-purview-protections.png](instructions360868/04-m365-admin-center-agent-purview-protections.png)
 
 1. Assign an owner to the agent so that someone is accountable for it.
 
@@ -42,7 +45,7 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
 
 ### Step 3: Test the agent in Microsoft 365 Copilot
 
-1. Open a new browser tab and go to +++https://m365.cloud.microsoft/chat+++. Sign in with the same **Username** and **Password** from the sign-in page.
+1. Open a new browser tab and go to +++https://m365.cloud.microsoft/chat+++. Sign in with the same **Username** and **Temporary Access Password** from the sign-in page.
 1. Open the **Agents** store and find **caldova-capacity-planning** under **Built by your org**. Select it.
 
    > [!Note]

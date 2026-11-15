@@ -4,6 +4,10 @@
 
 Welcome!
 
+Sign in to the virtual machine using the password below.
+
+   +++@lab.VirtualMachine(ignite26LAB662).Password+++
+
 Everyone is building agents. In this lab you won't build agents, **your job is to govern them.**
 
 You'll start where an IT leader starts, with a view of every agent in the organization. Then you'll deep dive into a set of specfic agents and work through tasks to govern them.

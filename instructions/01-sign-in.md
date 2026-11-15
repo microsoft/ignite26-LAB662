@@ -5,14 +5,14 @@ You only need a browser for this lab. You'll use one lab account to sign in to t
 | Credential | Value |
 |---|---|
 | **Username** | +++@lab.CloudCredential(AITour27M365E7).Username+++ |
-| **Password** | +++@lab.CloudCredential(AITour27M365E7).Password+++ |
+| **Temporary Access Password** | +++@lab.CloudCredential(AITour27M365E7).TemporaryAccessPassword+++ |
 
 ### Sign in
 
 1. Open a new browser tab and go to +++https://admin.microsoft.com+++.
-1. Sign in with the **Username** and **Password** above.
+1. Sign in with the **Username** and **Temporary Access Password** above.
 1. Open another browser tab and go to +++https://ai.azure.com+++.
-1. Sign in with the same **Username** and **Password**.
+1. Sign in with the same **Username** and **Temporary Access Password**.
 
 - [ ] I'm signed in to the Microsoft 365 admin center and to Microsoft Foundry.
 
@@ -30,13 +30,13 @@ You'll create an Azure Policy now and test it in the Microsoft Foundry section. 
 1. Select **Authoring > Assignments**, then **Assign policy**.
 1. Next to **Scope**, select **...**. Leave **Subscription** as is, and under **Resource Group** select the group with the prefix **rg-ignite**. Select **Select**.
 
-   ![Policy scope: select the subscription](../img/03-policy-assign-scope-subscription.png)
+   !IMAGE[03-policy-assign-scope-subscription.png](instructions360868/03-policy-assign-scope-subscription.png)
 
-   ![Policy scope: select the rg-ignite resource group](../img/03-policy-assign-scope-resource-group.png)
+   !IMAGE[03-policy-assign-scope-resource-group.png](instructions360868/03-policy-assign-scope-resource-group.png)
 
 1. Next to **Policy definition**, select **...** and search for +++Microsoft Foundry+++. Select **Foundry model deployments should only use approved models** and choose **Add**.
 
-   ![Search for the Foundry model deployments policy](../img/03-policy-available-definitions-foundry.png)
+   !IMAGE[03-policy-available-definitions-foundry.png](instructions360868/03-policy-available-definitions-foundry.png)
 
 1. Leave **Policy enforcement** as **Default (enforcement)**, then select **Next** to open **Parameters**.
 1. Clear **Only show parameters that need input or review**, then set:
@@ -47,12 +47,12 @@ You'll create an Azure Policy now and test it in the Microsoft Foundry section. 
    | **Allowed Model Publishers** | +++["OpenAI","Microsoft"]+++ |
    | **Allowed Asset Ids** | +++[]+++ |
 
-   ![Policy parameters: allowed model publishers](../img/03-policy-assign-parameters-allowed-publishers.png)
+   !IMAGE[03-policy-assign-parameters-allowed-publishers.png](instructions360868/03-policy-assign-parameters-allowed-publishers.png)
 
 1. Select **Review + create**, then **Create**.
 1. Go to **Policy > Compliance**. The new assignment appears with the compliance state **Not started**.
 
-   ![Policy compliance: Not started](../img/03-policy-compliance-azure-not-started.png)
+   !IMAGE[03-policy-compliance-azure-not-started.png](instructions360868/03-policy-compliance-azure-not-started.png)
 
    **Don't wait for the evaluation to finish.** Results are asynchronous. You'll check the policy in Microsoft Foundry in the next sections.
 

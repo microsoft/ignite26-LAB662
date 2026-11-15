@@ -14,11 +14,11 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 1. [] Select **Manage** in the top right to land on the **Fleet overview** page.
 1. [] Review the summary: the number of projects selected, agent runs, token consumption, estimated costs and policy violations.
 
-   ![Fleet overview summary](../img/03-foundry-fleet-overview-summary.png)
+   !IMAGE[03-foundry-fleet-overview-summary.png](instructions360868/03-foundry-fleet-overview-summary.png)
 
 1. [] Scroll to the **Assets in this scope** section and select **Agents**. Here you see all your agents individually.
 
-   ![Assets in this scope](../img/03-foundry-fleet-overview-assets-in-scope.png)
+   !IMAGE[03-foundry-fleet-overview-assets-in-scope.png](instructions360868/03-foundry-fleet-overview-assets-in-scope.png)
 
    Review as a developer or IT admin:
    - **Usage and reliability:** Compare invocations and error incidents. "Running" alone does not prove reliability.
@@ -29,11 +29,11 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 
 1. [] Select **caldova-capacity-planning** and open its **Traces**.
 
-   ![Traces for caldova-capacity-planning](../img/03-traces-caldova-capacity-planning-list.png)
+   !IMAGE[03-traces-caldova-capacity-planning-list.png](instructions360868/03-traces-caldova-capacity-planning-list.png)
 
 1. [] Open the first trace GUID, select the **Chat** bubble and review the input and output on the right side of the window - this is a trace of the conversation that happened with this agent. Real usage.
 
-   ![Chat span input and output](../img/03-traces-caldova-capacity-planning-chat-span.png)
+   !IMAGE[03-traces-caldova-capacity-planning-chat-span.png](instructions360868/03-traces-caldova-capacity-planning-chat-span.png)
 
    > [!Knowledge]
    > A trace records the steps of an agent run, including inputs, outputs, timing and any captured errors, so you can understand what happened.
@@ -73,15 +73,15 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 1. [] Go back to the **Manage** overview and select **Cost** on the left-hand side.
 1. [] Set the date range to **7D**. Review **Estimated cost**, **Month-end forecast** and the **Spend breakdown** between agent cost and direct model cost.
 
-   ![Cost overview](../img/03-foundry-cost-overview-summary.png)
+   !IMAGE[03-foundry-cost-overview-summary.png](instructions360868/03-foundry-cost-overview-summary.png)
 
 1. [] Scroll to **Spend over time** and **Highest spend assets**. Which agent costs the most?
 
-   ![Spend over time and highest spend assets](../img/03-foundry-cost-spend-over-time-top-assets.png)
+   !IMAGE[03-foundry-cost-spend-over-time-top-assets.png](instructions360868/03-foundry-cost-spend-over-time-top-assets.png)
 
 1. [] Scroll to **Cost by project** and use **Group by** to switch between **Project**, **Agent** and **Model**.
 
-   ![Cost by project](../img/03-foundry-cost-by-project.png)
+   !IMAGE[03-foundry-cost-by-project.png](instructions360868/03-foundry-cost-by-project.png)
 
 1. [] Open the **Cost Control** tab to see where budgets and limits are set for a team.
 
@@ -98,11 +98,11 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 
 1. [] On the right pane **Inspect the rules before predicting the outcome.** Confirm that the Jailbreak section states the action will be blocked. Review the other safety rules available in that pane (Content Safety).
 
-   ![caldova-enforce guardrail rules](../img/03-guardrails-caldova-enforce-rules.png)
+   !IMAGE[03-guardrails-caldova-enforce-rules.png](instructions360868/03-guardrails-caldova-enforce-rules.png)
 
 1. [] Next go to **Agents > guardrail-test-agent**, and in the playground scroll down to **Guardrail** section and check **caldova-enforce** is assigned.
 
-   ![Guardrail assigned in the playground](../img/03-guardrail-test-agent-playground-guardrail.png)
+   !IMAGE[03-guardrail-test-agent-playground-guardrail.png](instructions360868/03-guardrail-test-agent-playground-guardrail.png)
 
 1. [] **Predict:** which of these requests will the guardrail allow, and which might it block?
    - A normal request asking what the agent can help with.
@@ -116,7 +116,7 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 
    The expected outcome is that the request passes the guardrail and the agent responds.
 
-   ![Normal request passes the guardrail](../img/03-guardrail-test-agent-normal-request.png)
+   !IMAGE[03-guardrail-test-agent-normal-request.png](instructions360868/03-guardrail-test-agent-normal-request.png)
 
 1. [] Start a **new conversation** (top right + symbol in chat interface) in the same agent playground and send this harmless override attempt:
 
@@ -126,11 +126,11 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 
    If the prompt-attack detector identifies the attempt, the expected outcome is a **platform content-filter rejection** message appears. A model-written refusal alone does not prove that the guardrail blocked it.
 
-   ![Jailbreak attempt blocked by the guardrail](../img/03-guardrail-test-agent-jailbreak-blocked.png)
+   !IMAGE[03-guardrail-test-agent-jailbreak-blocked.png](instructions360868/03-guardrail-test-agent-jailbreak-blocked.png)
 
 1. [] Open the agent’s **Traces** tab and locate both requests using their timestamps. Select the trace id that Failed. Select **Metadata** tab and copy the code.
 
-   ![Failed trace for the blocked request](../img/03-traces-guardrail-test-agent-failed-trace.png)
+   !IMAGE[03-traces-guardrail-test-agent-failed-trace.png](instructions360868/03-traces-guardrail-test-agent-failed-trace.png)
 1. [] Open notepad on the windows machine and paste the code
 1. [] Select CTRL + F and type **jailbreak** - In the failed request you should see **detected and filtered set to true**
 
@@ -156,14 +156,14 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
 
 1. [] In Microsoft Foundry, open **Manage > Compliance**. On the **Policy** tab, confirm your **rg-ignite** resource group is selected and that **Foundry model deployments should only use approved models** is listed with enforcement mode **Enabled**.
 
-   ![Policy listed in Foundry compliance](../img/03-policy-compliance-foundry-operate.png)
+   !IMAGE[03-policy-compliance-foundry-operate.png](instructions360868/03-policy-compliance-foundry-operate.png)
 
 1. [] Open the **Model catalog** (go to **Build** in the top right corner, then select **Catalog** on the left)and search for +++Kimi-K3.1-Pro+++. This model is published by Moonshot AI, not Microsoft or OpenAI.
 1. [] Open the model and look at the **Deploy** button.
 
    The expected outcome is that the model **can't be deployed**. A banner explains that your administrator's policy blocks the model.
 
-   ![Kimi-K3.1-Pro blocked by the policy](../img/03-policy-blocked-model-kimi-deploy.png)
+   !IMAGE[03-policy-blocked-model-kimi-deploy.png](instructions360868/03-policy-blocked-model-kimi-deploy.png)
 
 1. [] Select **View policy** and confirm the blocking policy is **Foundry model deployments should only use approved models**.
 1. [] Search for a Microsoft or OpenAI model, such as **gpt-5.4-mini**, and confirm **Deploy** is available.
