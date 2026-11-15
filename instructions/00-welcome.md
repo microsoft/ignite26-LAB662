@@ -10,7 +10,7 @@ Sign in to the virtual machine using the password below.
 
 Everyone is building agents. In this lab you won't build agents, **your job is to govern them.**
 
-You'll start where an IT leader starts, with a view of every agent in the organization. Then you'll deep dive into a set of specfic agents and work through tasks to govern them.
+You'll start where an IT leader starts, with a view of every agent in the organization. Then you'll deep dive into a set of specific agents and work through tasks to govern them.
 
 | Tool | Who uses it | What it answers |
 |---|---|---|
@@ -24,7 +24,7 @@ You'll start where an IT leader starts, with a view of every agent in the organi
 
 Caldova is a fictional pharmaceutical company. Teams across the business have been building agents in Copilot Studio and Microsoft Foundry, and some have been brought in from outside. Nobody has a complete list. 
 
-The IT organization have recently gotten access to Agent 365 which sits inside the Microsoft 365 Admin Center. They will now be able to inventory and govern their agents in one place and also put some actions in place to alert them if any existing or new agents need attention. 
+The IT organization has recently gotten access to Agent 365 which sits inside the Microsoft 365 Admin Center. They will now be able to inventory and govern their agents in one place and also put some actions in place to alert them if any existing or new agents need attention. 
 
 One team, Supply Chain, built four specialist agents in Microsoft Foundry to advise on a supply disruption. If a planner wants to move production to a new supplier, e.g. **Northbank**, and speed up deliveries through the **Cedar** route these are the agents they use in Caldova to get work done
 
