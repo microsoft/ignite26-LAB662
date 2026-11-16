@@ -2,6 +2,17 @@
 
 You only need a browser for this lab. You'll use one lab account to sign in to the Microsoft 365 admin center, Microsoft Foundry and the Azure portal.
 
+### How this lab works
+
+> [!Knowledge]
+> - **Instructions pane:** The instructions sit side by side with the lab environment. Select **Next** at the bottom to move to the next page.
+> - **Split windows:** To move the instructions into their own browser window, for example on a second monitor, select the menu in the upper-right corner of the lab and choose **Split Windows**. To bring them back, open the same menu in the instructions window and choose **Join Windows**.
+> - **Typable text:** Text with a keyboard icon is typable. Click it to send the text into the active window of the lab environment, such as a browser address bar or a field. This saves you from typing URLs, names and credentials by hand.
+> - **Checkboxes:** Select a checkbox when you finish a major step to track your progress.
+> - **Screenshots:** Images show what you should see. Your screen may look slightly different.
+
+Use the credentials below to sign in.
+
 | Credential | Value |
 |---|---|
 | **Username** | +++@lab.CloudCredential(AITour27M365E7).Username+++ |
