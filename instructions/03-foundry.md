@@ -44,24 +44,10 @@ There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read a
    - **Right — Your assessment:** **Annotations** lets you rate the response, add tags or comments, and record expected outputs.
    - **Top and bottom — Navigate:** Summary badges show span and chat-call counts, duration and token usage. Replay the sequence with the timeline, or explore **User view** and **Graph view**.
 
-   A green check means the step completed successfully, not that its answer was correct or appropriate.
-
-1. [] Select **X** in the top-right corner to close the trace pop-out.
-1. [] Find the **Evaluation** tab for the **caldova-capacity-planning** agent and select the completed evaluation.
-1. [] Select the run to see full details.
-1. [] Review the evaluation results.
-
-   Review as a developer or IT admin:
-   - **Quality:** Compare coherence (clear, logical responses), relevance (addresses the request) and task adherence (follows instructions).
-   - **Individual results:** In **Detailed metrics result**, compare each query's scores and evaluator reasons; scroll horizontally to see the other metrics. Find a **Fail** and hover over the value to see a detailed description of what failed.
-
-   **Completed** means the evaluation finished, not that every response passed; strong overall scores can hide individual failures.
-
 **Completion check**
 
 - [] **Fleet overview:** I compared agent usage, errors and costs to identify an agent needing closer review.
 - [] **Traces:** I inspected a model call's input and output and understand that successful execution does not guarantee a correct response.
-- [] **Evaluations:** I found a failed result and reviewed the explanation of why it failed.
 
 > [!Note]
 > All activity in this project was generated when your lab started, so the charts cover a short time window. In production, the same dashboard shows days or weeks of activity.

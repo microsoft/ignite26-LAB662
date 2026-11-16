@@ -65,6 +65,6 @@ Developers build and publish in Microsoft Foundry. IT approves, secures and gove
 
 > [!Knowledge]
 > **Developer context + enterprise IT context = end-to-end agent governance.**
-> - **Foundry on its own** gives developers observability, evaluations, guardrails, cost controls and policies for the agents they build.
+> - **Foundry on its own** gives developers observability, guardrails, cost controls and policies for the agents they build.
 > - **Agent 365 on its own** gives IT one registry, one map and clear ownership for every agent, wherever it was built, including Copilot Studio, Foundry and shadow AI.
 > - **Together:** what developers build in Foundry shows up for IT in Agent 365, IT approves and controls how it reaches employees, and IT can drill down to the developer's view when it needs more detail.

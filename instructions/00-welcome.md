@@ -35,7 +35,7 @@ One team, Supply Chain, built four specialist agents in Microsoft Foundry to adv
 | **caldova-supplier-risk-monitor** | Supplier Assurance | Classify risk and recommend escalation. It can't block a supplier. |
 | **caldova-approval-packet-reviewer** | Quality Governance | Check a change packet for completeness. It can't sign or approve. |
 
-Two more Foundry agents, **guardrail-test-agent** and **guardrail-monitor-agent**, are set up for a guardrails exercise. These agents already have usage activity, traces and evaluations ready for you to explore.
+Two more Foundry agents, **guardrail-test-agent** and **guardrail-monitor-agent**, are set up for a guardrails exercise. These agents already have usage activity, and traces ready for you to explore.
 
 ### Lab outline
 
