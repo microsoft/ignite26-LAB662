@@ -4,8 +4,6 @@ You've seen every agent in the organization. Now look closer at one team's agent
 
 There are five 5-minute tasks plus a few minutes of buffer. You'll mostly read and interpret results; you won't write any code.
 
-<!-- AUTHOR NOTE: Product naming. Leadership guidance (Oct 20) is to keep "Foundry Control Plane" as the name. In the portal these views appear under Manage / Govern. Check tab labels in the Foundry governance daily stand-up before taking screenshots. -->
-
 ### Task 3.1 — The estate and its health (5 minutes)
 
 **Business question:** *"Are our agents working, and is anything going wrong?"*
